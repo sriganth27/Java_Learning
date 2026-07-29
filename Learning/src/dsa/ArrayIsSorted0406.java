@@ -25,11 +25,13 @@ public class ArrayIsSorted0406 {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int arr[] = {5,4,3,2,2,1};
+		int arr[] = {5,4,3,2,1};
 
 		
 		boolean result = ArrayIsSorted0406.checkSortedDesc(arr);
 		System.out.println(result);
+		boolean result1 = ArrayIsSorted0406.checkSorted(arr);
+		System.out.println(result1);
 	}
 
 }

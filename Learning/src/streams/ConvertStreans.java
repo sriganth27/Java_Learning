@@ -24,6 +24,9 @@ public class ConvertStreans {
 		.map(e->e*2)
 		.forEach(System.out::println);
 		
+		Stream<Double> str = Stream.generate(Math::random).limit(5);
+		str.forEach(System.out::println);
+		
 		
 	}
 
