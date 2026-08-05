@@ -55,7 +55,7 @@ public class CollectorsExample {
 			   
 	   Map<Boolean, List<String>> res4 =    ls.stream().collect(Collectors.partitioningBy(s-> s.getMarks()>=70,
 					                         Collectors.mapping(Student::getName, Collectors.toList())));
-	   System.out.println(res4);
+	   System.out.println("partition"+res4);
 			   
 	   
 	   // 7 . counting

@@ -11,6 +11,11 @@ public class test3 {
 		System.out.println(--b + b--);
 		System.out.println(a - --b);
 		System.out.println(b + --b + b++);
+		// \n next line 
+		System.out.println("Java\nCode");
+		
+		// \t space 
+		System.out.println("Java\tCode");
 
 	}
 
